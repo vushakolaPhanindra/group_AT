@@ -1,0 +1,46 @@
+# Core ML and Data Science
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# SHAP and Explainable AI
+shap>=0.42.0
+
+# LLM and AI
+langchain>=1.0.0
+langchain-openai>=1.0.0
+langchain-core>=1.0.0
+openai>=1.0.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+
+# Frontend
+streamlit>=1.28.0
+
+# Data Processing
+joblib>=1.3.0
+scipy>=1.11.0
+
+# HTTP and API
+requests>=2.31.0
+httpx>=0.24.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Jupyter and Notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Optional: For advanced visualizations
+dash>=2.14.0
+dash-bootstrap-components>=1.4.0

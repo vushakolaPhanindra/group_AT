@@ -1,0 +1,23 @@
+Credit Score Rationale - sample_001
+==================================================
+
+Generated on: 2025-10-25 14:53:20
+
+Based on the analysis, your credit score is predicted to be **Good**.
+
+The overall assessment shows some areas of concern that may impact your credit score.
+
+**Key positive factor**: Credit_Utilization_Ratio contributes significantly (+0.018) to your credit score.
+
+**Area for improvement**: Number_of_Loans has a negative impact (-0.038) on your credit score.
+
+
+**Recommendations:**
+
+- Maintain consistent payment history
+
+- Keep credit utilization below 30%
+
+- Monitor your credit report regularly
+
+- Consider diversifying your credit mix

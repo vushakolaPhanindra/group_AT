@@ -1,0 +1,60 @@
+{
+  "sample_index": 0,
+  "feature_values": {
+    "Age": -1.712313943005926,
+    "Gender": -1.2438534691138694,
+    "Income": 0.3062368212607943,
+    "Education": 0.4821158859947982,
+    "Marital_Status": 0.028287223111718,
+    "Number_of_Dependents": -0.9297931321830768,
+    "Credit_History_Length": 1.6229773725285814,
+    "Number_of_Credit_Cards": -0.5231992738528177,
+    "Number_of_Bank_Accounts": 1.4309786147185113,
+    "Interest_Rate": 1.2892266259700724,
+    "Number_of_Loans": 0.0396870887015969,
+    "Delay_from_due_date": -0.595631015308959,
+    "Outstanding_Debt": -0.2872699179828691,
+    "Credit_Utilization_Ratio": 0.7190490128987375
+  },
+  "shap_values": [
+    -0.00040783798626057514,
+    -0.0045676564206336544,
+    -0.025046238812751746,
+    -0.002839691664219301,
+    -0.008201382403289699,
+    -0.0024923444526363777,
+    -0.02808871220168422,
+    -0.009988593699059226,
+    -0.03339161834996041,
+    -0.012730866310801444,
+    -0.03816383112213168,
+    0.006341820725395355,
+    0.010960412514467097,
+    0.017984428931985454
+  ],
+  "feature_names": [
+    "Age",
+    "Gender",
+    "Income",
+    "Education",
+    "Marital_Status",
+    "Number_of_Dependents",
+    "Credit_History_Length",
+    "Number_of_Credit_Cards",
+    "Number_of_Bank_Accounts",
+    "Interest_Rate",
+    "Number_of_Loans",
+    "Delay_from_due_date",
+    "Outstanding_Debt",
+    "Credit_Utilization_Ratio"
+  ],
+  "total_shap_value": -0.13063211125158045,
+  "max_positive_contributor": {
+    "feature": "Credit_Utilization_Ratio",
+    "value": 0.017984428931985454
+  },
+  "max_negative_contributor": {
+    "feature": "Number_of_Loans",
+    "value": -0.03816383112213168
+  }
+}
