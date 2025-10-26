@@ -56,29 +56,36 @@ Web UI: http://localhost:8501
 
 API Docs: http://localhost:8000/docs
 
-Project Structure
+## 📁 Project Structure
+
+```
 credit-score-intelligence/
-├── src/           # Backend
-├── ui/            # Frontend
-├── data/          # Datasets
-├── models/        # Trained models
-├── outputs/       # SHAP plots & rationales
-├── notebooks/     # Exploration notebooks
-├── main.py        # Pipeline orchestrator
-├── requirements.txt
-└── README.md
-
-Example Output
-
-Rationale Sample:
-
-Prediction: Good
-Income contributes positively (+0.156)
-Number_of_Loans impacts negatively (-0.023)
-Recommendations: Maintain payment history, Keep credit utilization <30%
-
-
-API Response Sample:
+├── 📁 src/                          # Backend source code
+│   ├── 📄 api.py                    # FastAPI application
+│   ├── 📄 preprocess.py             # Data preprocessing pipeline
+│   ├── 📄 train_model.py            # Model training and evaluation
+│   ├── 📄 explain_model.py          # SHAP analysis and visualization
+│   ├── 📄 generate_rationale.py     # LLM-based explanation generation
+│   └── 📄 utils.py                  # Utility functions
+├── 📁 ui/                           # Frontend source code
+│   └── 📄 app.py                    # Streamlit web application
+├── 📁 data/                         # Data storage
+│   ├── 📄 credit_score.csv          # Raw dataset
+│   └── 📄 processed_credit.csv      # Cleaned dataset
+├── 📁 models/                       # Model storage
+│   └── 📄 credit_model.pkl          # Trained Random Forest model
+├── 📁 outputs/                      # Generated outputs
+│   ├── 📁 plots/                    # Visualization outputs
+│   ├── 📁 shap_summaries/           # SHAP analysis data
+│   └── 📁 rationales/               # Generated explanations
+├── 📁 notebooks/                    # Jupyter notebooks
+│   └── 📄 exploration.ipynb         # Data exploration
+├── 📄 main.py                       # Main pipeline orchestrator
+├── 📄 test_api.py                   # API testing script
+├── 📄 requirements.txt              # Python dependencies
+└── 📄 README.md                     # Project documentation
+```
+### API Response Sample:
 
 {
   "category": "Good",
@@ -87,7 +94,7 @@ API Response Sample:
   "rationale": "Your credit score is predicted to be Good"
 }
 
-Contributing
+### Contributing
 
 Fork the repository
 
