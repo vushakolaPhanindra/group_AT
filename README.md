@@ -86,14 +86,14 @@ credit-score-intelligence/
 └── 📄 README.md                     # Project documentation
 ```
 ### API Response Sample:
-
+```
 {
   "category": "Good",
   "confidence": 0.847,
   "feature_importance": {"Income": 0.156, "Credit_Utilization_Ratio": 0.134},
   "rationale": "Your credit score is predicted to be Good"
 }
-
+```
 ### Contributing
 
 Fork the repository
