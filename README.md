@@ -322,22 +322,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 📞 Support
 
-- 📧 Email: support@creditscoreintelligence.com
-- 💬 Discord: [Join our community](https://discord.gg/creditscore)
-- 📖 Documentation: [Read the docs](https://docs.creditscoreintelligence.com)
-- 🐛 Issues: [Report a bug](https://github.com/yourusername/credit-score-intelligence/issues)
-
-## 🙏 Acknowledgments
-
-- [scikit-learn](https://scikit-learn.org/) for machine learning algorithms
-- [SHAP](https://github.com/slundberg/shap) for explainable AI
-- [FastAPI](https://fastapi.tiangolo.com/) for the web framework
-- [Streamlit](https://streamlit.io/) for the user interface
-- [LangChain](https://langchain.com/) for LLM integration
-
----
 
 <div align="center">
   <strong>Built with ❤️ for transparent and fair credit decisions</strong>
