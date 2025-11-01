@@ -8,7 +8,7 @@ Thank you for your interest in contributing to Credit Score Intelligence! We wel
 
 If you find a bug or have a feature request, please:
 
-1. Check if the issue already exists in our [Issues](https://github.com/yourusername/credit-score-intelligence/issues) page
+1. Check if the issue already exists in our [Issues](https://github.com/vushakolaPhanindra/Financial_Project/issues) page
 2. Create a new issue with a clear title and description
 3. Include steps to reproduce the bug (if applicable)
 4. Add relevant labels to categorize the issue
@@ -211,19 +211,5 @@ Closes #123
 3. **All conversations** must be resolved
 4. **CI/CD pipeline** must pass successfully
 
-## 📞 Getting Help
-
-- 💬 **Discord**: Join our community server
-- 📧 **Email**: dev@creditscoreintelligence.com
-- 📖 **Documentation**: Check our comprehensive docs
-- 🐛 **Issues**: Search existing issues or create a new one
-
-## 🙏 Recognition
-
-Contributors will be recognized in:
-- README.md contributors section
-- Release notes
-- Project documentation
-- Community highlights
 
 Thank you for contributing to Credit Score Intelligence! 🚀
